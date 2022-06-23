@@ -10,7 +10,7 @@ body {
 }
 
 .App {
-  max-width: 350px;
+  max-width: 450px;
   margin: 0 auto;
 }
 .waterContainer {
@@ -37,7 +37,7 @@ body {
   padding: 0;
   display: grid;
   max-width: 100%;
-  grid-template-columns: repeat(5, 55px);
+  grid-template-columns: repeat(5, 70px);
   justify-content: center;
   margin: 0 auto;
   margin-top: 10px;
