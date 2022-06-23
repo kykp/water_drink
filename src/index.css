@@ -67,7 +67,7 @@ body {
   transition: background-color 1s;
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 500px){
   .glasses {
     grid-template-columns: repeat(5, 40px);
   }
