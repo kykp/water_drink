@@ -70,25 +70,25 @@ body {
     max-width: 95%;
   }
   .glasses {
-    grid-template-columns: repeat(5, 40px);
+    grid-template-columns: repeat(5, 55px);
   }
   .glass{
-    width: 50px;
+    width: 55px;
   }
   .glass_active{
-    width:50px
+    width:55px
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 350px){
   .glasses {
     grid-template-columns: repeat(5, 40px);
     gap: 18px;
   }
   .glass{
-    width: 44px;
+    width: 40px;
   }
   .glass_active{
-    width: 44px
+    width: 40px
   }
 }
