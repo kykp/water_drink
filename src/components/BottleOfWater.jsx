@@ -90,7 +90,7 @@ const [count, setCount] = useState(0)
 
 
 return (
-    <div className="App container">
+    <main className="App">
      <h1>Drink Water</h1>
      <div className="waterContainer">
      <div style={onHandleWidth()} className="water" ></div>
@@ -109,6 +109,6 @@ return (
       
       
      
-    </div>
+    </main>
 )
 }

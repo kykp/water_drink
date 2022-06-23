@@ -8,18 +8,15 @@ body {
   margin: 0 auto;
   text-rendering: optimizeLegibility;
 }
-.container {
-  margin:0 auto;
-  width: 90%;
-}
 
-.waterContainer {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
+.App {
   max-width: 350px;
+  margin: 0 auto;
+}
+.waterContainer {
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
   height: 50vh;
   border: 1px solid black;
   border-radius: 5px;
@@ -31,7 +28,7 @@ body {
   bottom: 0%;
   left: 0;
   height: 0px;
-  width: 100%;
+  max-width: 100%;
   transition: height 2s ease-in-out;
   z-index: -1;
 }
@@ -39,6 +36,7 @@ body {
   list-style: none;
   padding: 0;
   display: grid;
+  max-width: 100%;
   grid-template-columns: repeat(5, 55px);
   justify-content: center;
   margin: 0 auto;
