@@ -1,12 +1,12 @@
 body {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 #root {
   max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
 }
 .container {
   margin:0 auto;
