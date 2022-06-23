@@ -39,6 +39,7 @@ body {
   max-width: 100%;
   grid-template-columns: repeat(5, 70px);
   justify-content: center;
+  justify-items: center;
   margin: 0 auto;
   margin-top: 10px;
   gap: 1rem;
