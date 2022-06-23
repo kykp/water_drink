@@ -66,3 +66,15 @@ body {
   background-color: rgba(0, 128, 255, 0.408);
   transition: background-color 1s;
 }
+
+@media screen and (max-width: 350px){
+  .glasses {
+    grid-template-columns: repeat(5, 40px);
+  }
+  .glass{
+    width: 50px;
+  }
+  .glass_active{
+    width:50px
+  }
+}
