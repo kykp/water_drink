@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+#root {
+  max-width: 1440px;
+  width: 100%;
+}
+.container {
+  margin:0 auto;
+  width: 90%;
+}
+
+.waterContainer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.water {
+  background-color: blue;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  transition: height 2s ease-in-out;
+  z-index: -1;
+}
+.glasses{ 
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 55px);
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  gap: 1rem;
+}
+.glass {
+  border-radius: 5px;
+  width: 60px;
+  height: 80px;
+  border: 1px solid black;
+  position: relative;
+  color: white;
+  background-color: rgb(0, 128, 255);
+  transition: background-color 1s;
+}
+.glass_active {
+  border-radius: 5px;
+  width: 60px;
+  height: 80px;
+  border: 1px solid black;
+  position: relative;
+  color: white;
+  background-color: rgba(0, 128, 255, 0.408);
+  transition: background-color 1s;
+}
